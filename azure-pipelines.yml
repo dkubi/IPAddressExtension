@@ -31,7 +31,7 @@ stages:
       displayName: 'Run tests'
       inputs:
         command: 'test'
-        projects: 'tests/**/*.csproj'
+        projects: 'test/**/*.csproj'
         feedsToUse: 'select'
         versioningScheme: 'off'
     - task: DotNetCoreCLI@2
